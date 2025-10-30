@@ -1,3 +1,4 @@
+package arrays;
 import java.util.Scanner;
 public class arrRev {
     public static void arrRev(int arr[]) {

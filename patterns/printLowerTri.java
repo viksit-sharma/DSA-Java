@@ -1,3 +1,4 @@
+package patterns;
 //TO PRINT RIGHT LOWER TRIANGLE
 import java.util.Scanner;
 public class printLowerTri {

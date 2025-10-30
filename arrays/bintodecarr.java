@@ -1,3 +1,4 @@
+package arrays;
 import java.util.Scanner;
 public class bintodecarr {
     public static void main(String[] args) {

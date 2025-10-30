@@ -1,3 +1,4 @@
+package arrays;
 import java.util.Scanner;
 public class dectobin {
     public static void dectobin(int dec) {

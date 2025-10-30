@@ -1,23 +1,20 @@
+package SubArrays;
 import java.util.Scanner;
-public class printSubArrBrute {
-    public static void printSubArr(int arr[]) {
-        int ts = 0;
+public class maxSubArr {
+    public static void maxSubArr(int[] arr) {
+        int currSum, maxSum = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j <= arr.length; j++) {
-                System.out.print("(");
+                currSum = 0;
                 for (int k = i; k < j; k++) {
-                    if(k!=i)
-                    System.out.print(",");
-                    System.out.print(arr[k]);
+                    currSum += arr[k];
                 }
-                ts++;
-                System.out.print(") ");
+                if (currSum > maxSum) {
+                    maxSum = currSum;
+                }
             }
-            System.out.println();
         }
-        System.out.println("The total subarrays are : " + ts);
-        int n=arr.length;
-        System.out.println("The total subarrays are : " + (n * (n + 1)) / 2);
+        System.out.println("Max sum Subarray is : "+ maxSum);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -30,6 +27,6 @@ public class printSubArrBrute {
         for(int i = 0 ; i < arr.length ; i++) {
             arr[i] = sc.nextInt();
         }
-        printSubArr(arr);
+        maxSubArr(arr);
     }
 }

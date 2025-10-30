@@ -1,3 +1,4 @@
+package arrays;
 //PROGRAM TO PRINT STORE REVERSE NUMBER
 import java.util.Scanner;
 public class storeRev {

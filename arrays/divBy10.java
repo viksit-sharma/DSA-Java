@@ -1,3 +1,4 @@
+package arrays;
 import java.util.Scanner;
 public class divBy10 {
     public static void main(String[] args) {

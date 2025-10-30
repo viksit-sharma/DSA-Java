@@ -23,15 +23,15 @@ public class insertionSort {
         return arr;
     }
 
-    public static void insertionSort(int[] arr) {
+    public static void insertionSort(int[] arr) {//5,3,4,1,2
         for (int i = 1; i < arr.length; i++) {
-            int cP = arr[i];
-            int j = i - 1;
-            while (j >= 0 && arr[j] > cP) {
-                arr[j + 1] = arr[j];
-                j--;
+            int cP = arr[i];//3//4
+            int j = i - 1;//0//1
+            while (j >= 0 && arr[j] > cP) {//1>=0 && 5>4
+                arr[j + 1] = arr[j];//5->3//5->4
+                j--;//-1//0
             }
-            arr[j+1] = cP;
+            arr[j+1] = cP;//3,4,5
         }
     }
 

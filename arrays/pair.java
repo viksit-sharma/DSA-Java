@@ -1,3 +1,4 @@
+package arrays;
 import java.util.Scanner;
 public class pair {
     public static void main(String[] args) {

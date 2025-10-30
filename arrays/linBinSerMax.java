@@ -1,3 +1,4 @@
+package arrays;
 import java.util.Scanner;
 public class linBinSerMax {
     public static int findMax(int[] num) {

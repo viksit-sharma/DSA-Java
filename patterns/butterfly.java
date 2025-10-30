@@ -1,3 +1,4 @@
+package patterns;
 import java.util.Scanner;
 public class butterfly {
     public static void main(String[] args) {
