@@ -1,0 +1,17 @@
+package lect1;
+public class lowerRightTri {
+    public static void main(String[] args) {
+        fors (int i = 0; i < 5; i++) {
+
+            for (int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+
+            for (int j = 5 - i; j > 0; j--) {
+                System.out.print("*");
+            }
+            
+            System.out.println();
+        }
+    }
+}

@@ -1,0 +1,266 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "maxSubArr",
+            "request": "launch",
+            "mainClass": "SubArrays.maxSubArr",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "maxSubArrKadane",
+            "request": "launch",
+            "mainClass": "SubArrays.maxSubArrKadane",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "maxSubArrKadane1",
+            "request": "launch",
+            "mainClass": "SubArrays.maxSubArrKadane1",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "maxSubArrPrefix",
+            "request": "launch",
+            "mainClass": "SubArrays.maxSubArrPrefix",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "maxSubArrSlide",
+            "request": "launch",
+            "mainClass": "SubArrays.maxSubArrSlide",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "printSubArrBrute",
+            "request": "launch",
+            "mainClass": "SubArrays.printSubArrBrute",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "arrayAssi1",
+            "request": "launch",
+            "mainClass": "arrayAssi1",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "arrayAssi2",
+            "request": "launch",
+            "mainClass": "arrayAssi2",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "arrayAssi5",
+            "request": "launch",
+            "mainClass": "arrayAssi5",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "arrRev",
+            "request": "launch",
+            "mainClass": "arrays.arrRev",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "binoCoeff",
+            "request": "launch",
+            "mainClass": "arrays.binoCoeff",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "bintodec",
+            "request": "launch",
+            "mainClass": "arrays.bintodec",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "bintodecarr",
+            "request": "launch",
+            "mainClass": "arrays.bintodecarr",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "buySellStock",
+            "request": "launch",
+            "mainClass": "arrays.buySellStock",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "dectobin",
+            "request": "launch",
+            "mainClass": "arrays.dectobin",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "digsum",
+            "request": "launch",
+            "mainClass": "arrays.digsum",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "divBy10",
+            "request": "launch",
+            "mainClass": "arrays.divBy10",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "linBinSerMax",
+            "request": "launch",
+            "mainClass": "arrays.linBinSerMax",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "pair",
+            "request": "launch",
+            "mainClass": "arrays.pair",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "printRev",
+            "request": "launch",
+            "mainClass": "arrays.printRev",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "rainWater",
+            "request": "launch",
+            "mainClass": "arrays.rainWater",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "storeRev",
+            "request": "launch",
+            "mainClass": "arrays.storeRev",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "swapTwoNum",
+            "request": "launch",
+            "mainClass": "arrays.swapTwoNum",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "butterfly",
+            "request": "launch",
+            "mainClass": "patterns.butterfly",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "dia",
+            "request": "launch",
+            "mainClass": "patterns.dia",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "hollowrec",
+            "request": "launch",
+            "mainClass": "patterns.hollowrec",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "invTri",
+            "request": "launch",
+            "mainClass": "patterns.invTri",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "printLowerTri",
+            "request": "launch",
+            "mainClass": "patterns.printLowerTri",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "sorting.bubbleSort",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort2",
+            "request": "launch",
+            "mainClass": "sorting.bubbleSort2",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "countingSort",
+            "request": "launch",
+            "mainClass": "sorting.countingSort",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "countingSort2",
+            "request": "launch",
+            "mainClass": "sorting.countingSort2",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "insertionSort",
+            "request": "launch",
+            "mainClass": "sorting.insertionSort",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "insertionSort2",
+            "request": "launch",
+            "mainClass": "sorting.insertionSort2",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "sorting.selectionSort",
+            "projectName": "Java apnclg_6fdc065c"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort2",
+            "request": "launch",
+            "mainClass": "sorting.selectionSort2",
+            "projectName": "Java apnclg_6fdc065c"
+        }
+    ]
+}
