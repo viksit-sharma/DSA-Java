@@ -3,7 +3,8 @@ public class arrayAssi1 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
          System.out.print("Enter size of array : ");
-        int size = sc.nextInt();
+         int size = sc.nextInt();
+        sc.close();
         int arr[]=new int[size];
         
         for(int i=0;i<arr.length;i++){

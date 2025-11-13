@@ -1,11 +1,14 @@
 package lect7;
 
 class Car {
+    String company, model,  type;
+    int cost, speed; 
     Car() {
         System.out.println("Car Non parameterized constructor");
     }
-    Car(String s) {
-        System.out.println("Car 1 Parameterized constructor : "+s);
+    Car(String company) {
+        this.company = company;
+        System.out.println("Car 1 Parameterized constructor : "+company);
     }
     Car(String company,String model) {
         System.out.println("Car 2 Parameterized constructor : "+company+" "+model);

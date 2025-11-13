@@ -49,7 +49,7 @@ public class arrayAssi2 {
         }
         System.out.print("Enter the target : ");
         int target = sc.nextInt();
-
+        sc.close();
         System.out.println(check(arr, target));
     }
 }

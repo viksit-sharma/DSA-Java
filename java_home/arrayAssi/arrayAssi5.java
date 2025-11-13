@@ -11,6 +11,7 @@ public class arrayAssi5 {
         for (int i = 0; i < len; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
     
         int currSum = 0;
         int end = len-2>0?len-2:1;
