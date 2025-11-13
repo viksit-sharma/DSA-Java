@@ -1,5 +1,4 @@
 package strings;
-
 public class firstLtrUpper {
     public static String toUpperCase(String str) {
         StringBuilder string = new StringBuilder("");
