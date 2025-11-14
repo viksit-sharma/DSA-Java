@@ -1,4 +1,4 @@
-package java_home.SubArrays;
+package SubArrays;
 import java.util.Scanner;
 
 public class maxSubArrKadane1 {

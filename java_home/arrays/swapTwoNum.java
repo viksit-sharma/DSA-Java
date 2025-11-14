@@ -1,4 +1,4 @@
-package java_home.arrays;
+package arrays;
 //PROGRAM TO SWAP TWO NUMBERS 
 import java.util.Scanner;
 public class swapTwoNum {

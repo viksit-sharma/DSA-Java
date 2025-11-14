@@ -1,4 +1,4 @@
-package java_home.SubArrays;
+package SubArrays;
 public class maxSubArrSlide {//only valid if we take fix subarray like here is 3 and not for all possible subarrays
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 4, 5 };

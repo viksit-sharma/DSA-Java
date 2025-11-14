@@ -1,4 +1,4 @@
-package java_home.patterns;
+package patterns;
 import java.util.Scanner;
 public class hollowrec {
     public static void main(String[] args) {

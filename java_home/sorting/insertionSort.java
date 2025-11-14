@@ -1,4 +1,4 @@
-package java_home.sorting;
+package sorting;
 import java.util.Scanner;
 
 public class insertionSort {

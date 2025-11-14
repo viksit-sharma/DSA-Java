@@ -1,4 +1,4 @@
-package java_home.SubArrays;
+package SubArrays;
 import java.util.Scanner;
 public class maxSubArr {
     public static void maxSubArr(int[] arr) {

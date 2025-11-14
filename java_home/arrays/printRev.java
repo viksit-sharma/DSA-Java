@@ -1,4 +1,4 @@
-package java_home.arrays;
+package arrays;
 //PROGRAM TO PRINT REVERSE OF ANY NUMBER
 import java.util.Scanner;
 public class printRev{

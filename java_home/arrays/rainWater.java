@@ -1,4 +1,4 @@
-package java_home.arrays;
+package arrays;
 import java.util.Scanner;
 public class rainWater {
     public static void trappedWater(int[] arr) {

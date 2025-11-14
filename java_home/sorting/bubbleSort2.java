@@ -1,4 +1,4 @@
-package java_home.sorting;
+package sorting;
 
 public class bubbleSort2 {
     public static void main(String[] args) {

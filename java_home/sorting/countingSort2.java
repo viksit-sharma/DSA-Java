@@ -1,4 +1,4 @@
-package java_home.sorting;
+package sorting;
 
 public class countingSort2 {
     public static void printArr(int arr[]) {

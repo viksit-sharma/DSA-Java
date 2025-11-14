@@ -1,4 +1,4 @@
-package java_home.sorting;
+package sorting;
 
 public class selectionSort2 {
     public static void print(int[] arr) {
