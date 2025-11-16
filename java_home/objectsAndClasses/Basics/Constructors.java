@@ -1,4 +1,4 @@
-package objectsAndClasses;
+package objectsAndClasses.Basics;
 
 public class Constructors {
     public static void main(String[] args) {
@@ -24,24 +24,32 @@ class Student {
     String password;
     int marks[];
 
-    //COPY CONSTRUCTOR
+    // SHALLOW COPY CONSTRUCTOR
+    // Student(Student s) {
+    //     marks = new int[3];
+    //     this.name = s.name;
+    //     this.roll = s.roll;
+    //     //CREATING SHALLOW COPY
+    //     this.marks = s.marks;
+    // }
+
+    //DEEP COPY CONSTRUCTOR
     Student(Student s) {
         marks = new int[3];
         this.name = s.name;
         this.roll = s.roll;
-        //CREATING SHALLOW COPY
-        this.marks = s.marks;
         //CREATING DEEP COPY
-        // this.marks = new int[s.marks.length];
-        // for (int i = 0; i < s.marks.length; i++) {
-        //     this.marks[i] = s.marks[i];
-        // }
+        this.marks = new int[s.marks.length];
+        for (int i = 0; i < s.marks.length; i++) {
+            this.marks[i] = s.marks[i];
+        }
     }
 
     Student(String name, int roll, String password, int marks[]) {
         this.name = name;
         this.roll = roll;
         this.password = password;
-        this.marks=marks;
+        this.marks = marks;
     }
+    //WE DON'T WRITE DESTRUCTOR IN JAVA BECAUSE THE WORK THAT A DESTRUCTOR DO IS DONE BY GARBAGGE COLLECTOR SO WE DON'T NEED ANY INDIVIDUAL DESTRUCTOR FOR DELETION
 }

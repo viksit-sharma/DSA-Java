@@ -4,7 +4,8 @@ public class spiralMatrix {
     public static void spiral(int matrix[][]) {
         int startRow, startCol, endRow, endCol;
         startRow = startCol = 0;
-        endRow = endCol = matrix.length-1;
+        endRow = matrix.length - 1;
+        endCol = matrix[0].length-1;
         while (startRow <= endRow && startCol <= endCol) {
             for (int i = startCol; i <= endCol; i++) {
                 System.out.println(matrix[startRow][i]);
