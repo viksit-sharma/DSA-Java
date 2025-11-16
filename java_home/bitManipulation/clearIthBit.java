@@ -13,8 +13,8 @@ public class clearIthBit {
         return num & ~(1 << pos);
     }
     public static void main(String[] args) {
-        clearIthMine(10, 1);
-        clearIth(10, 1);
-        System.out.println(clearIth2(10, 1));
+        clearIthMine(10, 3);
+        clearIth(10, 3);
+        System.out.println(clearIth2(10, 3));
     }
 }

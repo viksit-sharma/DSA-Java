@@ -4,7 +4,7 @@ public class Ques3 {
     public static int sum(int num) {
         int num1 = num+1;
         int i = 0;
-        do {
+        while (num1 > 0) {
             if (num == 0) {
                 num = num | (1 << i);
             }
@@ -16,10 +16,10 @@ public class Ques3 {
             }
             i++;
             num1 = (num1 >> 1);
-        } while (num1 > 0);
+        }
         return num;
     }
     public static void main(String[] args) {
-        System.out.println(sum(4));
+        System.out.println(sum(73));
     }
 }

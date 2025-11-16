@@ -1,7 +1,7 @@
 package bitManipulation;
 
 public class checkPower {
-    public static void check2toThePowerMine(int num) {
+    public static void check2toThePowerMine(int num) {//NOT WORKING
         int copy = num;
         for (int i = 0; i < copy; i++) {
             if (num == (int) Math.pow(2, i)) {
@@ -17,12 +17,12 @@ public class checkPower {
         return ((num & (num - 1)) == 0);//1000 & 0111 == 0 means num is in power of two
     }
     public static void main(String[] args) {
-        boolean num = check2toThePower(65);
-        if (num == true) {
-            System.out.println("Is in power of two");
-        }
-        else {
-            System.out.println("Is not in power of two");
-        }
+        check2toThePowerMine(16);
+        // if (num == true) {
+        //     System.out.println("Is in power of two");
+        // }
+        // else {
+        //     System.out.println("Is not in power of two");
+        // }
     }
 }

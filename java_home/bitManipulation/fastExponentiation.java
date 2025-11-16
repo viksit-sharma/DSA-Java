@@ -17,6 +17,6 @@ public class fastExponentiation {
         return ans;
     }
     public static void main(String[] args) {
-        System.out.println(exponenter(3, 5));
+        System.out.println(exponenter(2, 7));
     }
 }

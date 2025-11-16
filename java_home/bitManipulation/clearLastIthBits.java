@@ -6,6 +6,6 @@ public class clearLastIthBits {
         System.out.println(bitMask & num);
     }
     public static void main(String[] args) {
-        clearBits(15, 2);
+        clearBits(31, 3);
     }
 } 
