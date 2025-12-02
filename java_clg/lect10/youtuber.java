@@ -14,7 +14,7 @@ public class youtuber {
     }
 }
 
-class YouTube {
+class YouTube{
     private String ChannelName;
     private int subsCount = 0;
 
