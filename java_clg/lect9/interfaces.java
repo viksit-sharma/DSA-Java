@@ -1,4 +1,4 @@
-package lect9;
+ package lect9;
 
 public class interfaces {
     public static void main(String[] args) {
