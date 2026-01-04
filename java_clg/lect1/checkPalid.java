@@ -11,3 +11,4 @@ public class checkPalid {
         System.out.println("Is palindrome");
     }
 }
+ 
